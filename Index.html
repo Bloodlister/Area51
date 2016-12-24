@@ -1,118 +1,75 @@
 <!DOCTYPE html>
-<head>
-<title>Area51</title>
-<meta charset="utf-8" />
-<link href="Styles/SectionOne.css" rel="stylesheet" type="text/css" >
-<link href="Styles/SectionTwo.css" rel="stylesheet" type="text/css" >
-<link href="Styles/SectionThree.css" rel="stylesheet" type="text/css" >
-<link href="Styles/SectionFour.css" rel="stylesheet" type="text/css" >
-<script src="ChangeLanguages.js"></script>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Area 51</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css" media="screen" title="no title">
+  </head>
+  <body>
+    <div class="wrapper">
 
-</head>
+      <!-- One -->
+      <div class="background">
+        <img src="Images\main.jpg" class="Bg"/>
+        <div class="overlay"></div>
+      </div>
 
-<body>
+        <div class="section">
+            <div class="page-header">
+                <h1>Area 51</h1>
+                <h3>Forgoten by many.</h3>
+                <h4>Yet something lurks</h4>
+            </div>
+        </div>
 
-	<div id="shader">
+      <!-- Two -->
+        <div class="section">
+            <div class="row thumb">
+                <img src="Images\left.jpg" alt="" class="img-responsive thumb-image col-md-5"/>
+
+                <div class="col-md-7 thumb-body thumb-shadow">
+                    <h2 class="thumb-header">This is the head</h2>
+                    <p class="thumb-text">This is some text that i added just for the lol instead of using lorem...</p>
+                </div>
+            </div>
+
+            <div class="row thumb">
+                <img src="Images\left.jpg" alt="" class="img-responsive thumb-image col-md-5"/>
+
+                <div class="col-md-7 thumb-body thumb-shadow">
+                    <h2 class="thumb-header">This is the head</h2>
+                    <p class="thumb-text">This is some text that i added just for the lol instead of using lorem...</p>
+                </div>
+            </div>
+
+            <div class="row thumb">
+                <img src="Images\left.jpg" alt="" class="img-responsive thumb-image col-md-5"/>
+
+                <div class="col-md-7 thumb-body thumb-shadow">
+                    <h2 class="thumb-header">This is the head</h2>
+                    <p class="thumb-text">This is some text that i added just for the lol instead of using lorem...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section videoSec">
+            <img src="Images\video.jpg" class="videoBack">
+                <div class="row content">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Kna8tEwKugw"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-10 desc">
+                        <h3>This is where there will be some text to tell you how scary this shit is.</h3>
+                    </div>
+                </div>
+            </img>
+        </div>
+
     </div>
-
-	<div id="SectionOne">
-    	<div id="LeftButton">
-        	<p>About Us</p>
-        </div>
-        
-        <div id="LeftButton">
-        	<p>Contacts <br />& &nbsp; &nbsp; &nbsp; &nbsp;<br />FAQ &nbsp; &nbsp; &nbsp;</p>
-        </div>
-        
-        <div id="RightButton">
-        	<p>Terms</p>
-		</div>
-        
-        <div id="RightButton">
-        	<p>Reservation</p>
-        </div>
-        
-        <div id="RightButton" class="Change" onClick="check()">
-        	<p id="Language">Български</p>
-        </div>
-    </div>
-    
-    <div id="SectionTwo">
-    	<iframe width="600" height="315" src="https://www.youtube.com/embed/gQY6piB4Bwg?autoplay=0">
-        </iframe>
-        <p>“Area 51” or “Зона 51” is the first of its kind action-puzzle live entertainment, in which you are the main characters in the story. Transport into the future, where chaos rules and the threat of the zombie-apocalypse is very real… perhaps even a fact. Salvation is in your hands… literally! You will be properly equipped to enter direct confrontation with the threat and will have to rely on your tactics, logical thinking and agility! Become the last hope of mankind, along with your friends and save the world in 60min.! Will you make it?</p>
-    </div>
-
-	<div id="SectionThree">
-    	<div id="contacts">
-        	<p id="SectionThreeText">Adress:</p>
-            <a id="SectionThreeSubtext" href="https://www.google.bg/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9A%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D1%86%D0%B0%E2%80%9C+71,+1233+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.7082402,23.3115392,16.51z/data=!4m2!3m1!1s0x40aa855910f0ed65:0xcf0f3a02da301046" target="_blank">Sofia, st. Klokotnitsa 71</a>
-            <p id="SectionThreeText">Telephone:</>
-            <p id="SectionThreeSubtext">088 6666 633</p>
-            <p id="SectionThreeText">E-mail:</p>
-            <p id="SectionThreeSubtext">mail.zona.51@gmail.com</p>
-        </div>
-        
-        
-        <div id="FAQ">
-        	<p id="Question">What is "Area 51"?</p>
-            <p id="Answer"> “Area 51” or “Зона 51” is the first live action-quest game, upgraded into a whole new level of interaction with the latest special effects and action, allowing you to feel what no video game could offer you!</p>
-            
-            <p id="Question">How long does the game last?</p>
-            <p id="Answer">60min.</p>
-            
-            <p id="Question">How can I make a reservation?</p>
-            <p id="Answer">You can make a reservation through our website, where you will see which hours of which days are free on our calendar, the white-coloured hours are free, and those in red – taken.</p>
-            
-            <p id="Question">How many people should we be?</p>
-            <p id="Answer">The recommended number for a group is from two to five people, the difficulty of the game is consisted with those criteria.</p>
-            
-            <p id="Question">Is there an age limit?</p>
-            <p id="Answer">Because of the thematic and nature of the game, we do not recommend it for people, under the age of 16, whereas in every group there must be at least one player or guardian of age.</p>
-            
-            <p id="Question">Is our game being recorded?</p>
-            <p id="Answer">Your game is not being recorded. You are, however, being monitored by an operator at all time.</p>
-            
-            <p id="Question">In the event of an emergency, can I exit the room?</p>
-            <p id="Answer">Yes, you can exit the room at any time, you will be escorted out and the rest of your group could continue playing.</p>
-            
-            <p id="Question">Is there anything scary?</p>
-            <p id="Answer">Yes!... and no, of course. Everything in the room is props and fake, danger for you and your teammates does not exist nowhere and at no time whatsoever. We try to get you into a “real story” and to make you the main characters in it, in our effort we have tried to keep a certain ambiance and mood to keep the story unveiling in an interesting way.</p>
-            
-            <p id="Question">Anything else I should know?</p>
-            <p id="Answer">We do not allow any mobile phones, video/photo cameras or any other kind of recording technology. We do not recommend people visiting us if they are suffering from claustrophobia, epilepsy or hemophobia (fear of blood), even though all the blood in the room is fake and is definitely not real. We ask you to treat our work and the objects in the room with respect, do not worry – upon entering you sign a declaration, where you are accepting our terms and conditions, whereas an automatic insurance is made and in the event of unwilling damage, you do not pay any kind of money compensation from your side.</p>
-            
-        </div>
-    </div>
-    
-    <div id="SectionFour">
-    	<div id="TextSpace">
-        	<p>
-Upon entering our game room, organized by “Area 51 – 2015 Ltd.”, we hereby declare that we agree with the following terms and conditions:</p>
-
-			<ol id="terms">
-            	<li>1. We attend the games, organized by “Area 51 – 2015 Ltd.” freely and by our own will.</li>
-                <li>2. We allow the “Area 51 – 2015 Ltd.” team to lock us into the room, specified for the game.</li>
-                <li>3. We give our explicit consent to be under constant video and audio monitoring by “Area 51 – 2015 Ltd.” during our stay in the room, specified for the game.</li>
-                <li>4. The “Area 51 – 2015 Ltd.” team has the right to save video recordings of the game.</li>
-                <li>5. “Area 51 – 2015 Ltd.” has the right to use photographic materials, taken after the game has ended, for advertising purposes.</li>
-                <li>6. You can quit your game at any time, by signalling the “Area 51 – 2015 Ltd.” team or by using the provided medium.</li>
-                <li>7. We are informed that we alone are responsible for our health during the game. The “Area 51 – 2015 Ltd.” team is not responsible for our personal health.</li>
-                <li>8. We declare that we do not suffer from illnesses regarding the central nervous system, claustrophobia, hemophobia, asthma, epilepsy, seizures and/or other illnesses, which could be provoked by staying in an enclosed space, the décor, props or the game process.</li>
-                <li>9. We are obligated not to publicize in any way the quests, parts of them, the items or any other confidential information regarding the games, organized by “Area 51 – 2015 Ltd.”.</li>
-                <li>10. Using cell phones, cameras or other technology with the aim of recording video, sound or photographing in the rooms is prohibited and we are obligated not to use them.</li>
-                <li>11. We are obligated to use the items and decors in the room conscientiously.</li>
-                <li>12. We are informed that the quests do not require any kind of heavy-lifting, physical strength or dismantling items.</li>
-                <li>13. Intentional damaged items are to be paid for.</li>
-                <li>14. We are informed that upon entering, we are being made individual insurance, with which upon accidental and unwilling damage, breaking or hurting the décor or parts of it, the aforementioned insurance covers it.</li>
-                <li>15. In case of negligence to the aforementioned points, regarding the terms and conditions, the “Area 51 – 2015 Ltd.” team has the right to stop our game at any time. In these cases, the amount we have paid for does not refund.</li>
-            </ol>
-            
-            <p>In case of extreme discontent caused by the game or other exceptional circumstances, in no more than two days after our visit, we have the right to file a refund claim for a part of the entire paid amount for the game. The claim should be filed in writing to the manager of “Area 51 – 2015 Ltd.”</p>
-            
-        </div>
-        
-        <a href="Reservation.php">Make a reservation!</a>
-    </div>
-</body>
+  </body>
 </html>
